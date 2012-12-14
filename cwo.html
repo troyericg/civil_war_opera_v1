@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www/w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Project: Civil War Opera</title>
+
+
+
+<!-- "Before he swings the bat, a real slugger imagines an 
+      arc inside his heart, arching directly to Heaven."
+............................................................
+.............. ?8DDDD7, ............ =ZDDDDZ=...............
+...........DDDDDDDDDDDDDDD.......NDDDDDDDDDDDDDD8...... ....
+........DDDDDDDDN+:,:IDDDDDD?..DDDDDND+::~$NDDDDDDD.... ....
+......IDDDDDO............,DDDDDDD8.............NDDDDN.......
+.....DDDDD..................DDD: ................NDDDD. . . 
+....NDDDN....................=.................... DDDD . . 
+...NDDD ..........~.................................DDDD ...
+...DDDN......... N...................................DDDI...
+...DDD~........DDDND. DDD..D+....................... NDDD...
+...DDD~..... NDDDDDD  DDD..DDD..Z ...................DDDD...
+...NDDN... DDDDDDDDD?.DDD.IDDD.NDDD..................DDD:...
+...DDDD......8DDDDD.........:=.DDD7.D7 .............ODDN. . 
+....DDD+........  ND........... ZD.?DDD ............DDDD. . 
+....=DDD,..........................DDN............ NDDN ....
+.....8DDD ................... . . . 7..ND .. . . .NDDD. ....
+......ZDDD7........................ . DDD8...... DDDN . ....
+........DDDD....................... ...~.  ....NDDD=... ....
+.........DDDDZ..........................DDD..,DDDN..........
+...........DDDDO........................DDN,NDDD............
+............DDDDD.......................DDDDDDD.............
+..............DDDDD........ . . . . ....DDDDD. . . ....   . 
+............... DDDDN ....... . . . ..DDDDD. . . . .... ....
+..................DDDDD.......... . 7DDDN....... . .... ....
+....................NDDD7.........,DDDD.....................
+......................DDDD.......DDDD,......................
+.......................:DDDN... NDDD ............. .... ....
+.........................DDDN.~DDD  .... ... ... . .... ....
+..........................,DDDDDN . ...    . . . . ....   . 
+............................DDD8............................
+............................ DD.............................
+............................................................  -->
+<!--        Made, with love, by Troy Eric Griggs.             -->
+
+
+
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="_css/screenImport.css" />
+
+<!-- JQUERY -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- ISOTOPE: MIN -->
+<script src="_js/_jquery/jquery.isotope.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- TABLETOP -->
+<script src="_js/_tabletop/src/tabletop.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- MY SCRIPTS -->
+<script type="text/javascript" src="_js/cwo.js"></script>
+
+
+</head>
+
+<body>
+	<div id="display-character">
+		<h1><!-- Aegis --></h1>
+		<ul class="col-image">
+			<li><img class="img" /></li>
+			<li class="label">MORE INFO</li>
+			<li><a href="#" target="_blank">On Comicvine »</a></li>
+			<li><a href="#" target="_blank">On Marvel.com »</a></li>
+		</ul>
+		<ul class="col-stats">
+			<li class="label">REAL NAME</li><li><!-- Trey Jason Rollins --></li>
+			<li class="label">ALIGNMENT</li><li><!-- Hero --></li>
+			<li class="label">STATUS</li><li><!-- Active --></li>
+			<li class="label">TYPE</li><li><!-- Superhuman --></li>
+			<li class="label">TEAM</li><li><!-- New Warriors --></li>
+			<li class="label">STANCE</li><li><!-- Anti-Registration --></li>
+		</ul>
+		<div class="col-appearances group">
+			<h6 class="label">APPEARED IN</h6>
+			<ul class="last">
+				<li>None</li>
+			</ul>
+		</div>
+	</div>
+	<div id="display-bg"></div>
+	<div id="wrapper">
+		
+		<div id="header" class="group">
+			<div class="headerContent"><h1>This is War</h1>
+			<p>Built as a way to view the <a href="http://marvel.com/" target="_blank">Marvel Comics</a> event, <a href="http://marvel.com/universe/Civil_War" target="_blank">"Civil War"</a> and where, in the end, each character stood on the issue. Conceived as a test and based on <a href="http://projects.propublica.org/sopa/" target="_blank">ProPublica's SOPA Opera</a>, by <a href="http://danwin.com/" target="_blank">Dan Nguyen.</a></p></div>
+		</div>
+		<div id="nav-outer" class="group">
+		<div id="nav" class="group">
+			<div id="nav-content" class="group">
+				<ul class="firstchild odd">
+					<h4>BY STANCE<span class="allSides">VIEW ALL</span></h4>
+					<li id="antiReg">ANTI-REGISTRATION</li>
+					<li id="proReg">PRO-REGISTRATION</li>
+				</ul>
+				<ul class="even">
+					<h4 class="allSides">BY STATUS</h4>
+					<li id="active">ACTIVE</li>
+					<li id="deceased">DECEASED</li>
+					<li id="captured">CAPTURED</li>
+					<li id="other">OTHER</li>
+				</ul>
+				<ul class="odd">
+					<h4 class="allSides">BY ALIGNMENT</h4>
+					<li id="alignHero">HERO</li>
+					<li id="alignVillain">VILLAIN</li>
+					<!-- <li id="alignAmbiguous">AMBIGUOUS</li> -->
+				</ul>
+				<ul class="even">
+					<h4 class="allSides">BY TYPE</h4>
+					<li id="typeSuperhuman">SUPERHUMAN</li>
+					<li id="typeMutant">MUTANT</li>
+					<li id="typeMystic">MYSTIC</li>
+					<li id="typeHuman">HUMAN</li>
+				</ul>
+				<ul class="odd">
+					<h4 class="allSides">BY TEAM</h4>
+					<li><select id="teams">
+						<option value="all">SELECT TEAM</option>
+						<option value="teamAvengers">AVENGERS</option>
+						<option value="teamBADGirls">B.A.D. GIRLS INC.</option>
+						<option value="teamChampions">CHAMPIONS</option>
+						<option value="teamCommission">THE COMMISSION</option>
+						<option value="teamFantastic4">FANTASTIC FOUR</option>
+						<option value="teamHeroes4Hire">HEROES FOR HIRE</option>
+						<option value="teamAvatars">MANDARIN'S AVATARS</option>
+						<option value="teamRunaways">RUNAWAYS</option>
+						<option value="teamSHIELD">S.H.I.E.L.D.</li>
+						<option value="teamInitiative">THE INITIATIVE</option>
+						<option value="teamThunderbolts">THUNDERBOLTS</option>
+						<option value="teamXFactor">X-FACTOR</option>
+						<option value="teamXMen">X-MEN</option>
+						<option value="teamYAvengers">YOUNG AVENGERS</option>
+					</select></li>
+				</ul>
+				<ul class="even last">
+					<h4 class="allSides">BY ISSUE</h4>
+					<li><select id="issues" name="select issue" size="1">
+						<option value="default">SELECT ISSUE</option>
+					</select></li>
+					<li>in reading order.</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<div id="content" class="group">
+			<div class="tooltip unselectable">
+				<h4 class="codename"></h4>
+				<ul class="left">
+					<li class="label">REAL NAME</li><li class="realname"></li>
+					<li class="label">ALIGNMENT</li><li class="alignment"></li>
+					<li class="label">STATUS</li><li class="statusof"></li></ul>
+				<ul>
+					<li class="label">TYPE</li><li class="type"></li>
+					<li class="label">TEAM</li><li class="team"></li>
+					<li class="label">STANCE</li><li class="antiregistration"></li></ul>
+			</div>
+			
+			<div id="main" class="group">
+				
+				<!-- ---------- ANTI-REGISTRATION DIV ---------- -->
+				<div class="leftMain group">
+					<h2>ANTI-REGISTRATION</h2>
+				<div id="aReg"></div>
+				</div>
+			
+			
+				<!-- ---------- PRO-REGISTRATION DIV ---------- -->
+				<div class="rightMain group">
+					<h2>PRO-REGISTRATION</h2>
+				<div id="pReg"></div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="footer" class="group">
+			<div id="footer-content">
+				<h4>made, with love, by <a href="http://troyericgriggs.com" target="_blank">troy eric griggs.</a></h4>
+				<div class="row firstchild">
+					<ul>
+						<li class="subhead"><h5>the specifics</h5></li>
+						<li>Neutral characters, or characters with undeclared stances (i.e. most of the X-Men, and The Thing) are not represented. Also, characters that appeared in Civil War #1, but <em>before</em> the Registration Act was passed were not included.</li>
+						<li>This project would have just sat around gathering moss if not for friends like <a href="http://thefatalistmarksman.com/" target="_blank">Matthew Davis</a> John Otis, and Beau Tidwell (thanks you guys!)</li>
+					</ul>
+				</div>
+				<div class="row">
+					<ul>
+						<li class="subhead"><h5>technological</h5></li>
+						<li>This <a href="https://docs.google.com/spreadsheet/pub?key=0Ang1OfZPG6vydHc2SFNxanc3bXh0SVc5Zm5NQnVKRGc&output=html" target="_blank">google spreadsheet</a> powers the entire page.</li>
+						<li>Balance Media's <a href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> hooks the spreadsheet into my project. It's the secret sauce.</li>
+						<li>All character data for this project comes from the <a href="http://marvel.com" target="_blank">marvel comics</a> site and the <a href="http://api.comicvine.com/" target="_blank">comicvine</a> API.</li>
+						<li>Issue data and reading order came from good old fashioned interneting (meaning it could be totally wrong.) The bulk of it came from <a href="http://www.606studios.com/bendisboard/showthread.php?87090-The-Civil-War-Timeline-(MASSIVE-SPOILERS!)" target="_blank">here</a> and <a href="http://borkweb.com/story/marvel-civil-war-reading-order" target="_blank">here.</a></li>
+						<li><img src="http://troyericgriggs.com/projects/cwo/_files/images/_icons/whiskey-powered-invert.png" width="150" height="41" alt="This site is Whiskey Powered."></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+
+
+	
+
+</body>
+
+
+</html>
